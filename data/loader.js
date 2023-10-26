@@ -1,19 +1,6 @@
 
 EJS_AdUrl = 'https://burritoedition.com/src/p/ad.html'
 
-
-var VERSION = '0.4.26'
-fetch('https://raw.githack.com/ethanaobrien/emulatorjs/main/data/version.json').then(response => {
-	if (response.ok) {
-		response.text().then(body => {
-			var version = JSON.parse(body);
-			var usingVersion = VERSION;
-			if (usingVersion != version.current_version) {
-				console.log('█▄▄ █░█ █▀█ █▀█ █ ▀█▀ █▀█   █▀▀ █▀▄ █ ▀█▀ █ █▀█ █▄░█\n█▄█ █▄█ █▀▄ █▀▄ █ ░█░ █▄█   ██▄ █▄▀ █ ░█░ █ █▄█ █░▀█');
-			};
-		});
-	};
-});
 var scriptTag = document.getElementsByTagName('script')[0]
 var emu_main = document.createElement('script')
 emu_main.src = function() {
