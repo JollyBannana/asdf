@@ -1,5 +1,4 @@
 
-EJS_AdUrl = 'https://burritoedition.com/src/p/ad.html'
 
 
 var VERSION = '0.4.26'
@@ -9,7 +8,7 @@ fetch('https://raw.githack.com/ethanaobrien/emulatorjs/main/data/version.json').
 			var version = JSON.parse(body);
 			var usingVersion = VERSION;
 			if (usingVersion != version.current_version) {
-				console.log('█▄▄ █░█ █▀█ █▀█ █ ▀█▀ █▀█   █▀▀ █▀▄ █ ▀█▀ █ █▀█ █▄░█\n█▄█ █▄█ █▀▄ █▀▄ █ ░█░ █▄█   ██▄ █▄▀ █ ░█░ █ █▄█ █░▀█');
+				console.log('Silly Goose. Why are you looking into The backend?');
 			};
 		});
 	};
